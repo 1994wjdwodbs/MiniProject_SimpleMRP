@@ -1,3 +1,4 @@
+# TCS 3200 컬러감지 센서 모듈
 
 import RPi.GPIO as GPIO
 import time
