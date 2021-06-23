@@ -11,7 +11,7 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
 ## 1. 요구사항 설계 문서
 
 <p align="center">
-    <img src="images/Project_01.jpg"><br/>
+    <img src="images/Project_01.jpg"><br/> 
     <span><b>프로젝트 일정계획 관리(WBS)</b></span>
 </p>
 
