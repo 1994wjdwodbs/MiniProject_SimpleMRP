@@ -8,7 +8,7 @@ import uuid
 import json
 
 s2 = 23 # Raspberry Pi Pin 23
-s3 = 24 # Raspberry Pi Pin 24
+s3 = 24 # Raspberry Pi Pin 24 
 out = 25 # sensing pin 25
 
 dev_id = 'DEV_JYJ01'
