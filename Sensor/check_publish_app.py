@@ -6,7 +6,7 @@ import paho.mqtt.client as mqtt
 import datetime as dt
 import uuid
 import json 
-
+  
 s2 = 23 # Raspberry Pi Pin 23
 s3 = 24 # Raspberry Pi Pin 24 
 out = 25 # sensing pin 25
