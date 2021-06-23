@@ -36,18 +36,13 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
 </p>
 
 <p align="center">
-    <img src="images/Project_04_3.JPG"><br/>
+    <img src="images/Project_04_3.jpg"><br/>
     <span><b>애플리케이션 설계서(공정모니터링)</b></span>
 </p>
 
 <p align="center">
-    <img src="images/Project_04_4.JPG"><br/>
+    <img src="images/Project_04_4.jpg"><br/>
     <span><b>애플리케이션 설계서(공정리포팅)</b></span>
-</p>
-
-<p align="center">
-    <img src="images/Project_05_1.JPG"><br/>
-    <span><b>테이블 기술서(Settings)</b></span>
 </p>
 
 <p align="center">
