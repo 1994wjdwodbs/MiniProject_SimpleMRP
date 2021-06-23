@@ -41,7 +41,7 @@ def setup():
     GPIO.setup(s3,GPIO.OUT)    
 
 # 데이터를 MQTT로 보내는 메서드
-def send_data(result):
+def send_data(result, r, g, b):
     send_msg = ''
     if result == 'GREEN':
         send_msg = 'OK'
@@ -59,6 +59,10 @@ def send_data(result):
     raw_data['dev_id'] = dev_id
     raw_data['prc_time'] = currtime
     raw_data['prc_msg'] = send_msg
+    raw_data['param'] = result
+    raw_data['red'] = r
+    raw_data['green'] = g
+    raw_data['blue'] = b
 
     pub_data = json.dumps(raw_data, ensure_ascii=False, indent='\t')
     #mqtt_publish
@@ -92,7 +96,7 @@ def loop():
 
         #print(result)
 
-        send_data(result)
+        send_data(result, r, g, b)
         time.sleep(1)
 
 
@@ -105,7 +109,7 @@ print('MQTT Connected')
 
 if __name__=='__main__':
     setup()
-    send_data('CONN')
+    send_data('CONN', None, None, None)
 
     try:
         loop()
