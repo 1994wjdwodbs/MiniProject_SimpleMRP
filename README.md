@@ -15,15 +15,21 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
     <span><b>프로젝트 일정계획 관리(WBS)</b></span>
 </p>
 
+---
+
 <p align="center">
     <img src="images/Project_02.jpg"><br/>
     <span><b>프로젝트 요구사항 정의</b></span>
 </p>
 
+---
+
 <p align="center">
     <img src="images/Project_03.JPG"><br/>
     <span><b>프로젝트 To Be 프로세스</b></span>
 </p>
+
+---
 
 <p align="center">
     <img src="images/Project_04_1.JPG"><br/>
@@ -45,6 +51,8 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
     <span><b>애플리케이션 설계서(공정리포팅)</b></span>
 </p>
 
+---
+
 <p align="center">
     <img src="images/Project_05_1.jpg"><br/>
     <span><b>테이블 기술서(Settings)</b></span>
@@ -60,10 +68,14 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
     <span><b>테이블 기술서(Process)</b></span>
 </p>
 
+---
+
 <p align="center">
     <img src="images/Project_06.jpg"><br/>
     <span><b>개발 리스트(가상)</b></span>
 </p>
+
+---
 
 ## 2. 프로그램 프로토타입/UI 설계
 
