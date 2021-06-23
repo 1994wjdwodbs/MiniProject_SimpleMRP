@@ -21,7 +21,7 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
 </p>
 
 <p align="center">
-    <img src="images/Project_03.jpg"><br/>
+    <img src="images/Project_03.JPG"><br/>
     <span><b>프로젝트 To Be 프로세스</b></span>
 </p>
 
