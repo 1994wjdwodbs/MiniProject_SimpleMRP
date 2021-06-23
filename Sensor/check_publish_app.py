@@ -14,7 +14,7 @@ out = 25 # sensing pin 25
 dev_id = 'DEV_JYJ01'
 dev_uid = uuid.uuid3(uuid.NAMESPACE_OID, dev_id) 
 broker_address = '210.119.12.78'
-
+  
 # NUM_CYCLES = 10
 
 def read_value(a0, a1):
