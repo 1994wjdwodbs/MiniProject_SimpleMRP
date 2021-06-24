@@ -183,6 +183,21 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/>
     <img src="images/테스트_케이스.png"><br/>
     <span><b>프로젝트 단위 테스트</b></span>
 </p>
+
+<p align="center">
+    <img src="images/테스트_검증_01.JPG"><br/>
+    <span><b>테스트 검증 메서드</b></span>
+</p>
+
+<p align="center">
+    <img src="images/테스트_검증_02.JPG"><br/>
+    <span><b>테스트 전용 코드</b></span>
+</p>
+
+<p align="center">
+    <img src="images/테스트_결과.JPG"><br/>
+    <span><b>단위 테스트 결과</b></span>
+</p>
 <br/>
 
 ## 10. MRP 프로그램 일부 구현 (공정계획)
