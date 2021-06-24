@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MRPApp.Model;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity.Migrations;
 using System.Linq;
@@ -64,5 +65,43 @@ namespace MRPApp.Logic
             }
         }
         */
+
+        // Setting 테이블에서 데이터 가져오기
+        internal static List<Settings> GetSettings()
+        {
+            List<Model.Settings> settings;
+            using (var ctx = new MRPEntities()) // ctx : context
+            {
+                settings = ctx.Settings.ToList(); // = SELECT * FROM Settings
+            }
+
+            return settings;
+        }
+
+        internal static int SetSettings(Settings setting)
+        {
+            using (var ctx = new MRPEntities())
+            {
+                ctx.Settings.AddOrUpdate(setting);
+                return ctx.SaveChanges();
+            }
+        }
+
+        internal static int DelSettings(Settings setting)
+        {
+            using (var ctx = new MRPEntities())
+            {
+                var obj = ctx.Settings.Find(setting.BasicCode);
+                // 요약:
+                //     Finds an entity with the given primary key values. If an entity with the given
+                //     primary key values exists in the context, then it is returned immediately without
+                //     making a request to the store. Otherwise, a request is made to the store for
+                //     an entity with the given primary key values and this entity, if found, is attached
+                //     to the context and returned. If no entity is found in the context or the store,
+                //     then null is returned.
+                ctx.Settings.Remove(obj);
+                return ctx.SaveChanges(); // commit
+            }
+        }
     }
 }
