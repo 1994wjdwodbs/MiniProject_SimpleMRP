@@ -67,7 +67,7 @@ namespace MRPApp.Logic
         */
 
         // Setting 테이블에서 데이터 가져오기
-        internal static List<Settings> GetSettings()
+        public static List<Settings> GetSettings()
         {
             List<Model.Settings> settings;
             using (var ctx = new MRPEntities()) // ctx : context
