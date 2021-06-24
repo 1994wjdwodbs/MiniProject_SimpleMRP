@@ -169,7 +169,7 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/>
 </p>
 <br/>
 
-## 8. MRP 프로그램 일부 구현
+## 8. MRP 프로그램 일부 구현 (설정)
 
 <p align="center">
     <img src="images/MRP_일부_구현.JPG"><br/>
@@ -182,5 +182,13 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/>
 <p align="center">
     <img src="images/테스트_케이스.png"><br/>
     <span><b>프로젝트 단위 테스트</b></span>
+</p>
+<br/>
+
+## 10. MRP 프로그램 일부 구현 (공정계획)
+
+<p align="center">
+    <img src="images/MRP_일부_구현.JPG"><br/>
+    <span><b>MRP 프로그램 설정 부분 구현</b></span>
 </p>
 <br/>
