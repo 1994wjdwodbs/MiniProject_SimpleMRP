@@ -178,3 +178,9 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/>
 <br/>
 
 ## 9. 단위 테스트
+
+<p align="center">
+    <img src="images/테스트_케이스.png"><br/>
+    <span><b>프로젝트 단위 테스트</b></span>
+</p>
+<br/>
