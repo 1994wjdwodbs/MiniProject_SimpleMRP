@@ -36,9 +36,9 @@ def read_value(a0, a1):
 
 def setup():
     GPIO.setmode(GPIO.BCM)
-    GPIO.setup(out,GPIO.IN, pull_up_down=GPIO.PUD_UP)
-    GPIO.setup(s2,GPIO.OUT)
-    GPIO.setup(s3,GPIO.OUT)    
+    GPIO.setup(out, GPIO.IN, pull_up_down = GPIO.PUD_UP)
+    GPIO.setup(s2, GPIO.OUT)
+    GPIO.setup(s3, GPIO.OUT)    
 
 # 데이터를 MQTT로 보내는 메서드
 def send_data(result, r, g, b):
@@ -99,15 +99,16 @@ def loop():
         send_data(result, r, g, b)
         time.sleep(1)
 
+# START
 
 print('MQTT Client')
 
-client2 = mqtt.Client('FactMachine')
-client2.connect(broker_address, 1883)
+client2 = mqtt.Client('FactMachine') # 클라이언트 이름 (의미 없음)
+client2.connect(broker_address, 1883) # 해당 IP 주소, PORT 번호로 연결
 
 print('MQTT Connected')
 
-if __name__=='__main__':
+if __name__=='__main__': # Entry Point
     setup()
     send_data('CONN', None, None, None)
 
