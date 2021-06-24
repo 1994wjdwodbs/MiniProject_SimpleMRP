@@ -102,7 +102,7 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
 ## 3. Database 테이블 모델링
 
 <p align="center">
-    <img src="images/테이블_모델링.jpg"><br/>
+    <img src="images/테이블_모델링.JPG"><br/>
     <span><b>Database 테이블 모델링</b></span>
 </p>
 
@@ -134,6 +134,15 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
 </p>
 
 ## 7. MQTT Publisher/Subscriber 프로그램 구현 (Publisher : 파이썬, Subscriber(Daemon) : 윈폼)
+
+---
+
+<p align="center">
+    <img src="images/mqtt_구성도.png"><br/>
+    <span><b>MQTT 구성 설계</b></span>
+</p>
+
+---
 
 <p align="center">
     <img src="images/MQTT_Publisher_Program.JPG"><br/>
