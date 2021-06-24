@@ -1,12 +1,12 @@
 # MiniProject_Simple MRP
 
-C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로젝트 형식으로 설계 및 구현하는 과정을 작성했습니다.<br/>
+C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로젝트 일정대로 설계 및 구현하는 과정을 작성했습니다.<br/>
 
 ```console
-문서화(액셀, 파워포인트) -> 프로그램 프로토타입/UI 설계 -> DB 테이블 모델링 -> 프로그램 프로토타입/UI 일부 구현 
+문서화(액셀, 파워포인트) -> 프로그램 프로토타입/UI 설계 -> DB 테이블 모델링 -> MRP 프로그램 프로토타입/UI 일부 구현 
 -> 칼라 인식 센서 작동 확인 -> MQTT 브로커 구축 및 클라이언트 접속 확인 (라즈베리파이 : 텔넷, 서버 : MQTT Explorer) 
 -> MQTT Publisher/Subscriber 프로그램 구현 (Publisher : 파이썬, Subscriber(Daemon) : 윈폼) 
--> MQTT Server 프로그램 구현
+-> MRP 프로그램 일부 구현
 ```
 
 ## 1. 요구사항 설계 문서
@@ -167,3 +167,5 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을 프로�
     <span><b>MQTT Subscriber Program</b></span>
 </p>
 <br/>
+
+## 7. MRP 프로그램 일부 구현
