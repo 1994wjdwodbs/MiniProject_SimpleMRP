@@ -1,4 +1,4 @@
-# MiniProject_Simple MRP
+# MiniProject_Simple MRP :factory:
 
 C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/> 
 프로젝트 일정대로 설계 및 구현, 테스트하는 절차입니다.<br/>
