@@ -203,7 +203,7 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/>
 ## 10. MRP 프로그램 일부 구현 (공정계획)
 
 <p align="center">
-    <img src="images/xxx.JPG"><br/>
+    <img src="images/MRP_공정계획_구현.JPG"><br/>
     <span><b>MRP 프로그램 설정 부분 구현</b></span>
 </p>
 <br/>
