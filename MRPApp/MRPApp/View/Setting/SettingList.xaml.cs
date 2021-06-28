@@ -153,8 +153,7 @@ namespace MRPApp.View.Setting
             }
         }
 
-        // 입력 데이터 검증 메서드
-        public bool IsValidInputs()
+        private bool IsValidInputs()
         {
             var isValid = true;
             InitErrorMessages();
