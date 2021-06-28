@@ -8,6 +8,7 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/>
 -> 칼라 인식 센서 작동 확인 -> MQTT 브로커 구축 및 클라이언트 접속 확인 (라즈베리파이 : 텔넷, 서버 : MQTT Explorer) 
 -> MQTT Publisher/Subscriber 프로그램 구현 (Publisher : 파이썬, Subscriber(Daemon) : 윈폼) 
 -> MRP 프로그램 일부 구현 (설정) -> 프로그램 단위 테스트 -> MRP 프로그램 일부 구현 (공정계획)
+-> MRP 프로그램 일부 구현 (공정모니터링)
 ```
 
 ## 1. 요구사항 설계 문서
@@ -204,6 +205,14 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/>
 
 <p align="center">
     <img src="images/MRP_공정계획_구현.JPG"><br/>
-    <span><b>MRP 프로그램 설정 부분 구현</b></span>
+    <span><b>MRP 프로그램 공정계획 부분 구현</b></span>
+</p>
+<br/>
+
+## 11 MRP 프로그램 일부 구현 (공정모니터링)
+
+<p align="center">
+    <img src="images/MRP_공정모니터링_구현.JPG"><br/>
+    <span><b>MRP 프로그램 공정모니터링 부분 구현</b></span>
 </p>
 <br/>
