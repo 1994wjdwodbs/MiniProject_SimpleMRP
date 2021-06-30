@@ -209,7 +209,7 @@ C#과 Python을 이용한 미니 공정 시뮬레이션 프로그램을<br/>
 </p>
 <br/>
 
-## 11 MRP 프로그램 일부 구현 (공정모니터링)
+## 11. MRP 프로그램 일부 구현 (공정모니터링)
 
 <p align="center">
     <img src="images/MRP_공정모니터링_구현.JPG"><br/>
