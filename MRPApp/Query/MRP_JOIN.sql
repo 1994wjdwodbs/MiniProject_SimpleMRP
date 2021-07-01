@@ -39,3 +39,4 @@ INNER JOIN (
 			    GROUP BY smr.SchIdx, smr.PrcDate
 			) AS prc
 ON sch.SchIdx = prc.SchIdx
+WHERE sch.PlantCode = 'PC010002' AND prc.PrcDate BETWEEN '2021-06-30' AND '2021-07-01'
