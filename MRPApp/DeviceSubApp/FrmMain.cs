@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -67,7 +68,7 @@ namespace DeviceSubApp
         {
             LblResult.Text = sw.Elapsed.Seconds.ToString();
 
-            if(sw.Elapsed.Seconds >= 3)
+            if(sw.Elapsed.Seconds >= 2)
             {
                 sw.Stop();
                 sw.Reset();
@@ -90,12 +91,11 @@ namespace DeviceSubApp
                 // UpdateText("DB처리");
                 using (var conn = new SqlConnection(connectionString))
                 {
-                    string strUpQry = $"UPDATE Process_DEV " +
-                                       $"SET PrcEndTime = '{DateTime.Now.ToString("HH:mm:ss")}' " +
-                                          $", PrcResult = '{((correctData["prc_msg"] == "OK") ? 1 : 0)}' " + 
+                    string strUpQry = $"UPDATE Process " +
+                                          $"SET PrcResult = '{((correctData["prc_msg"] == "OK") ? 1 : 0)}' " + 
                                           $", ModDate = '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' " + 
                                           $", ModID = '{"SYS"}' " + 
-                                       $"WHERE PrcIdx = (SELECT TOP 1 PrcIdx FROM Process_DEV ORDER BY PrcIdx DESC)";
+                                       $"WHERE PrcIdx = (SELECT TOP 1 PrcIdx FROM Process ORDER BY PrcIdx DESC)";
 
                     try
                     {

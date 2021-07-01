@@ -21,6 +21,7 @@ using MRPApp.View.Setting;
 using MRPApp.View.Schedule;
 using System.Configuration;
 using MRPApp.View.Process;
+using MRPApp.View.Report;
 
 namespace MRPApp
 {
@@ -45,6 +46,7 @@ namespace MRPApp
                 BtnLoginedId.Content = $"{Commons.LOGINED_USER.UserEmail} ({Commons.LOGINED_USER.UserName})";*/
 
             Commons.PLANTCODE = ConfigurationManager.AppSettings["PlantCode"];
+            Commons.FACILITYID = ConfigurationManager.AppSettings["FacilityID"];
             try
             {
                 var plantName = Logic.DataAccess.GetSettings().Where(c => c.BasicCode.Equals(Commons.PLANTCODE)).FirstOrDefault().CodeName;
@@ -148,6 +150,19 @@ namespace MRPApp
             catch (Exception ex)
             {
                 Commons.LOGGER.Error($"예외발생 BtnMonitoring_Click : {ex}");
+                this.ShowMessageAsync("예외", $"예외발생 : {ex}");
+            }
+        }
+
+        private void BtnReport_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                ActiveControl.Content = new ReportView();
+            }
+            catch (Exception ex)
+            {
+                Commons.LOGGER.Error($"예외발생 BtnReport_Click : {ex}");
                 this.ShowMessageAsync("예외", $"예외발생 : {ex}");
             }
         }
